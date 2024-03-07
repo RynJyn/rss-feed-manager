@@ -1,0 +1,24 @@
+div#feed-content
+{
+    max-width: 95%;
+    margin: auto;
+}
+
+div#feed-content > article
+{
+    padding: 0 1em;
+    margin: 0.5em 0;
+    border: 1px solid;
+}
+
+div#feed-content > article:nth-of-type(odd)
+{
+    background-color: lightblue;
+    border: 1px solid cadetblue;
+}
+
+div#feed-content > article:nth-of-type(even)
+{
+    background-color: beige;
+    border: 1px solid yellowgreen;
+}
